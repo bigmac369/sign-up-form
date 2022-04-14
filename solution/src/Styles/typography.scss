@@ -1,0 +1,53 @@
+.title-para {
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .title-container {
+    width: 525px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 474px;
+  }
+
+  .input {
+    width: 460px;
+  }
+
+  .btn-signup {
+    width: 460px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-container {
+    width: 540px;
+    height: 60px;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}

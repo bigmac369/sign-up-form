@@ -1,0 +1,95 @@
+.detail-container {
+  width: 327px;
+  height: 88px;
+  background-color: #6055a5;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 279px;
+  height: 56px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #6055a5;
+}
+
+.input:invalid {
+  border: 1px solid #ff7a7a;
+}
+
+.form {
+  background-color: white;
+  padding: 10px;
+  margin: 24px;
+  position: relative;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  height: 442px;
+  width: 327px;
+}
+
+form div::after {
+  content: "!";
+  position: absolute;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ff7a7a;
+  -webkit-transform: translate(-40px, 26px);
+          transform: translate(-40px, 26px);
+  opacity: 0;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-signup {
+  background-color: #38cc8c;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  width: 279px;
+  height: 56px;
+  text-transform: uppercase;
+}
+
+.btn-signup:hover {
+  background-color: #2bda8e;
+}
+
+.term {
+  font-size: 11px;
+  color: #b9b6d3;
+}
+
+.term > span {
+  color: red;
+}
+/*# sourceMappingURL=Form.css.map */
